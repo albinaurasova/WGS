@@ -135,7 +135,7 @@ input:-moz-placeholder {
 		min-width: 1540px;
 	}
 	.b-1 .b-back{
-		background-color: rgba(0,0,0,0.1);
+		background-color: rgba(0,0,125,0.1);
 		width: 100%;
 		background-image: url('../i/b-1/back.png');
 		background-size: cover;
