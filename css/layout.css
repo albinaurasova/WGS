@@ -105,6 +105,7 @@ input.error,textarea.error{
 	top: 0px;
 	left: 50%;
 	margin-left: -500px;
+	width: 1180px;
 }
 input::-webkit-input-placeholder {
 	color: #434343;
@@ -121,7 +122,7 @@ input:-moz-placeholder {
 .b-1{
 	
 }
-	
+
 @media screen and (max-width: 1250px){
 	
 }
