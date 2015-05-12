@@ -357,7 +357,7 @@ input:-moz-placeholder {
 				}
 
 				.b-1 .typecar input[type="submit"]:active{
-					box-shadow: inset 0px 0px 7px 1px #000;
+					box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.3);
 					background-color: #0fcaa0;
 					cursor: pointer;
 				}
@@ -392,7 +392,7 @@ input:-moz-placeholder {
 		margin-top: 57px;
 		color: #fcffff;
 		margin-right: 33px;
-		margin-bottom: 75px;
+		margin-bottom: 62px;
 	}
 
 	.b-2 .arrow{
