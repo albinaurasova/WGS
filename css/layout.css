@@ -199,11 +199,7 @@ input:-moz-placeholder {
 				}
 
 				.b-1 .head .tel a:hover{
-					color: #0fe1b2;
-				}
-
-				.b-1 .head .tel a:active{
-					color: #0fcaa0;
+					  text-decoration: none;
 				}
 
 		.b-1 .content{
@@ -341,14 +337,17 @@ input:-moz-placeholder {
 					font-size: 18px;
 				}
 
-				.b-1 .typecar input[type="submit"]{
-					height: 50px;
-					width: 373px;
+				.b-green-button{
 					border: none;
 					text-align: center;
 					background-color: #06fac3;
 					font-family:'pf_bague_sans_proregular';
 					font-size: 18px;
+				}
+
+				.b-1 .typecar input[type="submit"]{
+					height: 50px;
+					width: 373px;					
 					margin-top: 11px;
 				}
 
@@ -358,6 +357,7 @@ input:-moz-placeholder {
 				}
 
 				.b-1 .typecar input[type="submit"]:active{
+					box-shadow: inset 0px 0px 7px 1px #000;
 					background-color: #0fcaa0;
 					cursor: pointer;
 				}
