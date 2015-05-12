@@ -82,10 +82,21 @@
 							<!--<img class="right ford" src="i/b-1/logo/ford.png">-->
 							<img class="right alfa_romeo" src="i/b-1/logo/alfaromeo.png">
 						</div>
-						<input type="text" placeholder="Alfa Romeo">
-						<input type="text" placeholder="Brera">
-						<input type="text" placeholder="Введите ваш телефон">
-						<input type="submit" class="b-green-button" value="Получить 4 варианта чип тюнинга!">
+						<form action="select1.php" method="post">
+							<select name="brand">
+							    <option value="AlfaRomeo">Alfa Romeo</option>
+							    <option value="Chevrolet">Chevrolet</option>
+							    <option value="Ford">Ford</option>
+						   	</select>
+						   	<select name="model">
+							    <option value="" disabled selected>Модель</option>
+						   	</select>
+						   	<select name="engine">
+							    <option value="" disabled selected>Двигатель</option>
+						   	</select>
+							<input type="text" placeholder="Введите ваш телефон">
+							<input type="submit" class="b-green-button" value="Получить 4 варианта чип тюнинга!">
+						</form>
 						<p>Сегодня рассчитали уже <b>132</b> варианта чип-тюнинга</p>
 					</div>
 		 				 			
