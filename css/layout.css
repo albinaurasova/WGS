@@ -42,7 +42,7 @@ body {
 	position: relative;
 }
 body {
-	min-width: 1200px;
+	min-width: 1220px;
 	text-align: center;
 	font-family: 'pf_bague_sans_proregular';
 	overflow-x: hidden;
@@ -127,14 +127,21 @@ input:-moz-placeholder {
 		
 	}
 .b-1{
-	
+	height: 941px;
+	overflow: hidden;
 }
-
-	.b-1 .b-back{
+	.b-video{
 		width: 100%;
-		background-image: url('../i/b-1/back.jpg');
+		min-width: 1540px;
+	}
+	.b-1 .b-back{
+		background-color: rgba(0,0,0,0.1);
+		width: 100%;
+		background-image: url('../i/b-1/back.png');
 		background-size: cover;
-
+		position: absolute;
+		left: 0px;
+		top: 0px;
 	}
 
 		.b-1 .head{	
