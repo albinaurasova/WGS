@@ -198,6 +198,14 @@ input:-moz-placeholder {
 					margin-top: -4px;
 				}
 
+				.b-1 .head .tel a:hover{
+					color: #0fe1b2;
+				}
+
+				.b-1 .head .tel a:active{
+					color: #0fcaa0;
+				}
+
 		.b-1 .content{
 			margin-top: 41px;
 		}
@@ -322,13 +330,13 @@ input:-moz-placeholder {
 				}
 
 				input::-webkit-input-placeholder {
-					color: #262626;
+					color: #aaa;
 					font-family: 'pf_bague_sans_proregular';
 					font-size: 18px;
 				}
 
 				input:-moz-placeholder {
-					color: #262626;
+					color: #aaa;
 					font-family: 'pf_bague_sans_proregular';
 					font-size: 18px;
 				}
@@ -346,10 +354,12 @@ input:-moz-placeholder {
 
 				.b-1 .typecar input[type="submit"]:hover{
 					background-color: #0fe1b2;
+					cursor: pointer;
 				}
 
 				.b-1 .typecar input[type="submit"]:active{
 					background-color: #0fcaa0;
+					cursor: pointer;
 				}
 
 				.b-1 .typecar p{
