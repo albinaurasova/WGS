@@ -1,37 +1,15 @@
 $(document).ready(function(){	
-	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
- //    var myOptions = {
- //        zoom: 16,
- //        center: myPlace,
- //        mapTypeId: google.maps.MapTypeId.ROADMAP,
- //        disableDefaultUI: true,
- //        scrollwheel: false,
- //        zoomControl: true
- //    }
- //    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions); 
 
- //    var marker = new google.maps.Marker({
-	//     position: myPlace,
-	//     map: map,
-	//     title: "Ярмарка вакансий и стажировок"
-	// });
+    var Models = {
+        "AlfaRomeo" : {
+            "156" : ["1.6i (120)","1.8i (144)"],
+            '159': ["2.2i JTS (185)"]
+            },
+        "Chevrolet" : {
+            "Avalanche" : ["5.3i (294)","5.3i (320)","8.1i (329)"],
+            'Aveo': ["1.2i (72)","1.2i (84)","1.4i (101)","1.4i (83)","1.4i (94)","1.6i (106)"]
+            }
+        };
 
-    //  var options = {
-    //     $AutoPlay: true,                                
-    //     $SlideDuration: 500,                            
-
-    //     $BulletNavigatorOptions: {                      
-    //         $Class: $JssorBulletNavigator$,             
-    //         $ChanceToShow: 2,                           
-    //         $AutoCenter: 1,                            
-    //         $Steps: 1,                                  
-    //         $Lanes: 1,                                  
-    //         $SpacingX: 10,                              
-    //         $SpacingY: 10,                              
-    //         $Orientation: 1                             
-    //     }
-    // };
-
-    // var jssor_slider1 = new $JssorSlider$("slider1_container", options);
-
+    console.log(Models);
 });
