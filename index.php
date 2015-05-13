@@ -96,7 +96,7 @@
 							<h2 class="left">Получите 4 варианта чип тюнинга <?=$type['text']?><br>прямо сейчас!</h2>
 							<img class="right <?=$type['class']?>" src="<?=$type['logo']?>">
 						</div>
-						<form action="kitsend.php" method="post">
+						<form action="kitsend.php" method="post" data-block="#b-popup-2">
 							<select name="1" data-brand="<?=$type['class']?>" required>
 							 	<option value="" disabled selected>Марка вашего автомобиля</option>
 							    <option value="alfa_romeo">Alfa Romeo</option>
