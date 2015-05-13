@@ -103,18 +103,18 @@
 							    <option value="chevrolet">Chevrolet</option>
 							    <option value="ford">Ford</option>
 						   	</select>
-						   	<input type="hidden" name="1-name" value="brand"/>
+						   	<input type="hidden" name="1-name" value="Марка"/>
 						   	<select name="2" required>
 							    <option value="" disabled selected>Модель</option>
 						   	</select>
-						   	<input type="hidden" name="2-name" value="model"/>
+						   	<input type="hidden" name="2-name" value="Модель"/>
 						   	<select name="3" required>
 							    <option value="" disabled selected>Двигатель</option>
 						   	</select>
-						   	<input type="hidden" name="3-name" value="engine"/>
+						   	<input type="hidden" name="3-name" value="Двигатель"/>
 							<input type="text" name="phone" placeholder="Введите ваш телефон" required>
 
-							<input type="hidden" name="subject" value="Заявка"/>
+							<input type="hidden" name="subject" value="Заявка на чип-тюнинг"/>
 							<input type="submit" class="b-green-button ajax" value="Получить 4 варианта чип тюнинга!">
 						</form>
 						<p>Сегодня рассчитали уже <b>132</b> варианта чип-тюнинга</p>
