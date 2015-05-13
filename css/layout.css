@@ -162,12 +162,12 @@ input:-moz-placeholder {
 		
 	}
 .b-1{
-	height: 1000px;
+	height: 983px;
 	overflow: hidden;
 }
 	.b-video{
 		width: 100%;
-		min-width: 1540px;
+		min-width: 1600px;
 	}
 	.b-1 .b-back{
 		background-color: rgba(0,0,125,0.1);
@@ -323,7 +323,7 @@ input:-moz-placeholder {
 				border: 1px solid #303030;
 				background-color: #131313;
 				box-shadow: 3px -3px 38px 1px #222;
-				margin-bottom: 98px;
+				margin-bottom: 80px;
 			}
 
 				.b-1 .typecar h2,.b-popup h2{
