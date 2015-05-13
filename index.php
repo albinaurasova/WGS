@@ -1,9 +1,9 @@
 <?
 
-	$types = ['alfaromeo' => ['img' => 'i/b-1/car/alfaromeo.png', 'logo' => "i/b-1/logo/alfaromeo.png", 'text' => 'Alfa Romeo','class' => 'alfa_romeo'],
-			  'chevrolet' => ['img' => 'i/b-1/car/chevrolet.png', 'logo' => "i/b-1/logo/chevrolet.png", 'text' => 'Chevrolet','class' => 'chevrolet'],
-			  'ford' => ['img' => 'i/b-1/car/ford.png', 'logo' => "i/b-1/logo/ford.png", 'text' => 'Ford','class' => 'ford']
-			];
+	$types = array('alfaromeo' => array('img' => 'i/b-1/car/alfaromeo.png', 'logo' => "i/b-1/logo/alfaromeo.png", 'text' => 'Alfa Romeo','class' => 'alfa_romeo'),
+			  'chevrolet' => array('img' => 'i/b-1/car/chevrolet.png', 'logo' => "i/b-1/logo/chevrolet.png", 'text' => 'Chevrolet','class' => 'chevrolet'),
+			  'ford' => array('img' => 'i/b-1/car/ford.png', 'logo' => "i/b-1/logo/ford.png", 'text' => 'Ford','class' => 'ford')
+			);
 	$rand = rand(0,2);
 
 	if($rand==0) {
