@@ -132,8 +132,8 @@
 		</div>
 	</div>
 	
-<div style="display:none;">
-	<div id="callback">
+	<div style="display:none;">
+		<div id="callback">
 			<div class="b-popup">
 				<div class="clearfix">
 					<h2>Заказать обратный звонок</h2>
