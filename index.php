@@ -156,9 +156,9 @@
 		</div>
 		<div id="b-popup-error">
 			<div class="b-thanks b-popup">
-				<h3>Ошибка отправки!</h3>
-				<h4>Приносим свои извинения. Пожалуйста, попробуйте отправить Вашу заявку позже.</h4>
-				<input type="submit" class="b-orange-butt" onclick="$.fancybox.close(); return false;" value="Закрыть">
+				<h2>Ошибка отправки!</h2>
+				<p>Приносим свои извинения. Пожалуйста, попробуйте отправить Вашу заявку позже.</p>
+				<input type="submit" class="b-green-button" onclick="$.fancybox.close(); return false;" value="Закрыть">
 			</div>
 		</div>
 	</div>

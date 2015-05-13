@@ -420,7 +420,7 @@ input:-moz-placeholder {
  					margin-top: 10px;
  					padding-left: 15px;
  					border: 2px solid #3d3d3d;
- 					height: 46px;
+ 					height: 48px;
  					width: 374px;
 				}
 .b-2{
@@ -448,7 +448,13 @@ input:-moz-placeholder {
   		right: 113px;
 	}
 .b-popup {
-
+	overflow: hidden;
+}
+.b-thanks{
+	width: 400px !important;
+}
+.b-thanks p{
+	margin-bottom: 10px;
 }
 .b-popup h2{
 	margin-top: 0;
@@ -459,6 +465,9 @@ input:-moz-placeholder {
 	text-align: center;
 	width: inherit;
 	margin-top: 0;
+}
+.fancybox-inner .b-popup{
+	margin-bottom: 0px;
 }
 @media screen and (max-width: 1250px){
 	

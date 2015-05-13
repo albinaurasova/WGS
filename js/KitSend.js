@@ -90,7 +90,7 @@ $(document).ready(function(){
 	});
 
 	$(".ajax").parents("form").submit(function(){
-  		if( $(this).find(".error").length == 0 ){
+  		if( $(this).find("input.error,select.error,textarea.error").length == 0 ){
   			var $this = $(this),
   				$thanks = $($this.attr("data-block"));
 
