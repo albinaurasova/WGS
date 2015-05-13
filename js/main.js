@@ -77,9 +77,9 @@ $(document).ready(function(){
         });
 
     });
-        var select = $("select[name='1']").attr("data-brand");
-        $("select[name='1'] option[value='"+select+"']").prop("selected",true);    
-        $("select[name='1']").change();          
+        // var select = $("select[name='1']").attr("data-brand");
+        // $("select[name='1'] option[value='"+select+"']").prop("selected",true);    
+        // $("select[name='1']").change();          
     
 });
 

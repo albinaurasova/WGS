@@ -98,7 +98,7 @@
 						</div>
 						<form action="kitsend.php" method="post">
 							<select name="1" data-brand="<?=$type['class']?>" required>
-							 	<!-- <option value="" disabled selected>Марка</option> -->
+							 	<option value="" disabled selected>Марка вашего автомобиля</option>
 							    <option value="alfa_romeo">Alfa Romeo</option>
 							    <option value="chevrolet">Chevrolet</option>
 							    <option value="ford">Ford</option>
