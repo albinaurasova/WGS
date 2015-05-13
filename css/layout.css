@@ -75,10 +75,18 @@ select {
 	/* for IE */
 	-ms-appearance: none;
 	appearance: none!important;
-	background-image: url('../i/select.jpg');
+	background-image: url('../i/select-arrow.jpg');
+  	background-size: 50px;
+  	background-position: 100% 50%;
+  	background-repeat: no-repeat;
 }
 select::-ms-expand {
   display: none;
+}
+select.error {
+	/*background-color: #FFCECE !important;
+	box-shadow: 0 1px 2px rgba(180, 14, 14, 0.57);*/
+	border: 2px solid red !important;
 }
 .ps-lines{
 	display: none;
@@ -104,6 +112,18 @@ select::-ms-expand {
 	}
 .fancybox-inner{
 	overflow: visible !important;
+}
+.fancybox-skin {
+	background: none;
+}
+.fancybox-opened .fancybox-skin {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+.fancybox-close {
+	top: -33px;
+  	right: -20px;
 }
 .bold{
 	font-family: 'PFM';
@@ -142,12 +162,12 @@ input:-moz-placeholder {
 		
 	}
 .b-1{
-	height: 983px;
+	height: 1000px;
 	overflow: hidden;
 }
 	.b-video{
 		width: 100%;
-		min-width: 1600px;
+		min-width: 1540px;
 	}
 	.b-1 .b-back{
 		background-color: rgba(0,0,125,0.1);
@@ -297,16 +317,16 @@ input:-moz-placeholder {
   					margin-left: -78px;;
 				}
 
-			.b-1 .typecar{
+			.b-1 .typecar, .b-popup{
 				width: 372px;
 				padding: 27px 28px 26px 30px;
 				border: 1px solid #303030;
 				background-color: #131313;
 				box-shadow: 3px -3px 38px 1px #222;
-				margin-bottom: 80px;
+				margin-bottom: 98px;
 			}
 
-				.b-1 .typecar h2{
+				.b-1 .typecar h2,.b-popup h2{
 					margin-top: -7px;
 					font-size: 23px;
 					color: #e9e9e9;
@@ -335,7 +355,7 @@ input:-moz-placeholder {
   					height: 44px;
 				}
 
-				.b-1 .typecar input[type="text"]{
+				.b-1 .typecar input[type="text"],.b-popup input[type="text"]{
 					font-size: 18px;
 					text-align: left;
 					margin-top: 10px;
@@ -365,24 +385,24 @@ input:-moz-placeholder {
 					font-size: 18px;
 				}
 
-				.b-1 .typecar input[type="submit"]{
+				.b-1 .typecar input[type="submit"],.b-popup input[type="submit"]{
 					height: 50px;
 					width: 373px;					
 					margin-top: 11px;
 				}
 
-				.b-1 .typecar input[type="submit"]:hover{
+				.b-1 .typecar input[type="submit"]:hover,.b-popup input[type="submit"]:hover{
 					background-color: #0fe1b2;
 					cursor: pointer;
 				}
 
-				.b-1 .typecar input[type="submit"]:active{
+				.b-1 .typecar input[type="submit"]:active,.b-popup input[type="submit"]:active{
 					box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.3);
 					background-color: #0fcaa0;
 					cursor: pointer;
 				}
 
-				.b-1 .typecar p{
+				.b-1 .typecar p,.b-popup p{
 					font-size: 18px;
   					text-align: left;
   					color: #fdfdfd;
@@ -391,11 +411,11 @@ input:-moz-placeholder {
   					line-height: 20px;
 				}
 
-				.b-1 .typecar b{
+				.b-1 .typecar b,.b-popup b{
 					border: 1px solid #fdfdfd;
 					padding: 2px 7px 2px 4px;
 				}
-				.b-1 form select {
+				.b-1 .typecar select {
 					font-size: 18px;
  					text-align: left;
  					margin-top: 10px;
@@ -428,7 +448,19 @@ input:-moz-placeholder {
   		top: -116px;
   		right: 113px;
 	}
+.b-popup {
 
+}
+.b-popup h2{
+	margin-top: 0;
+  	width: inherit;
+  	text-align: center;
+}	
+.b-popup p {
+	text-align: center;
+	width: inherit;
+	margin-top: 0;
+}
 @media screen and (max-width: 1250px){
 	
 }

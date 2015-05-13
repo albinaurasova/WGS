@@ -1,12 +1,11 @@
 $(document).ready(function(){	
 
-
     var Cars = {
-    "AlfaRomeo" : {
+    "alfa_romeo" : {
         "156" : ["1.6i (120)","1.8i (144)"],
         '159': ["2.2i JTS (185)"]
         },
-    "Chevrolet" : {
+    "chevrolet" : {
         "Avalanche" : ["5.3i (294)","5.3i (320)","8.1i (329)"],
         'Aveo': ["1.2i (72)","1.2i (84)","1.4i (101)","1.4i (83)","1.4i (94)","1.6i (106)","II 1.6i (115)"],
         "Blazer": ["4.3i V6 (193)"],
@@ -34,7 +33,7 @@ $(document).ready(function(){
         'Tahoe' : ['4.8i V8 (278)','4.8i V8 (290)','5.3i V8 (273)','5.3i V8 (288)','5.3i V8 (300)','5.3i V8 (324)','5.7i V8 (258)','5.7i V8 (254)','5.7i V8 (200)','6.0i V8 (305)'],
         'Trailblazer' : ['4.2i (273)','4.2i (279)','4.2i (295)','5.3i V8 (288)','5.3i V8 (294)','5.3i V8 (304)','6.0i V8 (400)','II 3.6i (239)']
         },
-    "Ford" : {
+    "ford" : {
         'C-Max' : ["I 1.8i MT (125)","I 2.0i AT (145)","II 1.6i (125)","I 1.6i 16V (103)","I 1.6i 16V Ti-VCT (115)","I 1.8i 16V (125)","I 2.0i 16V (145)"],
         'Cougar' : ["2.0i (131)","2.5i (170)","2.5i (205)"],
         'Edge' : ["3.5i (288)"],
@@ -52,36 +51,35 @@ $(document).ready(function(){
         'S-Max' : ["2.0i 16V (145)","2.3i (161)"],
         'Transit' : ["2.0 CDi (100)"]
         }
-    }
+    };
     // console.log(Models);
     var brand,model;
-    $("select[name='brand']").change(function(){
-        brand = $("select[name='brand'] option:selected").val();
+    $("select[name='1']").change(function(){
+        brand = $("select[name='1'] option:selected").val();
         $.each(Cars, function( brand_key, brand_value ) {
             if(brand_key == brand) {
-                $("select[name='model'],select[name='engine']").empty();
-                $("select[name='model']").append('<option value="" disabled selected>Модель</option>');
-                $("select[name='engine']").append('<option value="" disabled selected>Двигатель</option>');
+                $("select[name='2'],select[name='3']").empty();
+                $("select[name='2']").append('<option value="" disabled selected>Модель</option>');
+                $("select[name='3']").append('<option value="" disabled selected>Двигатель</option>');
                 $.each(Cars[brand], function( model_key, model_arr ) {
-                    $("select[name='model']").append('<option value="'+model_key+'">'+model_key+'</option>');
+                    $("select[name='2']").append('<option value="'+model_key+'">'+model_key+'</option>');
                 });
             }
         });
     });
 
-    $("select[name='model']").change(function(){
-        model = $("select[name='model'] option:selected").val();
-        $("select[name='engine']").empty();
-        $("select[name='engine']").append('<option value="" disabled selected>Двигатель</option>');
+    $("select[name='2']").change(function(){
+        model = $("select[name='2'] option:selected").val();
+        $("select[name='3']").empty();
+        $("select[name='3']").append('<option value="" disabled selected>Двигатель</option>');
         $.each(Cars[brand][model], function( model_key, model_arr ) {
-            $("select[name='engine']").append('<option value="'+model_arr+'">'+model_arr+'</option>');
+            $("select[name='3']").append('<option value="'+model_arr+'">'+model_arr+'</option>');
         });
 
     });
-    if(1) {
-        $("select[name='brand'] option[value='Chevrolet']").prop("selected",true);    
-        $("select[name='brand']").change();          
-    }
+        var select = $("select[name='1']").attr("data-brand");
+        $("select[name='1'] option[value='"+select+"']").prop("selected",true);    
+        $("select[name='1']").change();          
     
 });
 
