@@ -57,9 +57,11 @@
 		<li class="v" ></li>
 	</ul>
 	<div class="b b-1">
-		<video class="b-video" poster="i/b-1/video.jpg" autoplay loop muted id="bgvideo">
-	   		<source src="video/3.mp4" type="video/mp4"></source>
-	  	</video>
+		<div class="b-video-cont">
+			<video class="b-video" poster="i/b-1/video.jpg" autoplay loop muted id="bgvideo">
+		   		<source src="video/5.mp4" type="video/mp4"></source>
+		  	</video>
+		</div>
 		<div class="b-back">
 		 	<div class="b-block">
 		 		<div class="head clearfix">

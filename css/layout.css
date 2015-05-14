@@ -165,10 +165,18 @@ input:-moz-placeholder {
 	height: 983px;
 	overflow: hidden;
 }
-	.b-video{
+	.b-video-cont{
+		position: relative;
 		width: 100%;
-		min-width: 1600px;
+		height: 656px;	
 	}
+		.b-video{
+			width: 100%;
+			/*min-width: 1600px;*/
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+		}
 	.b-1 .b-back{
 		background-color: rgba(0,0,125,0.1);
 		width: 100%;
