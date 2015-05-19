@@ -93,9 +93,13 @@
 		 			</div>
 					
 					<div class="clearfix right typecar">
-						<div class="clearfix">
-							<h2 class="left">Получите 4 варианта чип тюнинга <?=$type['text']?> прямо сейчас!</h2>
-							<img class="right <?=$type['class']?>" src="<?=$type['logo']?>">
+						<div>
+							<div class="tc">
+								<h2>Получите 4 варианта чип тюнинга <?=$type['text']?> прямо сейчас!</h2>
+							</div>
+							<div class="tc">
+								<img class="<?=$type['class']?>" src="<?=$type['logo']?>">
+							</div>
 						</div>
 						<form action="kitsend.php" method="post" data-block="#b-popup-2">
 							<select name="1" data-brand="<?=$type['class']?>" required>
@@ -119,17 +123,28 @@
 							<input type="submit" class="b-green-button ajax" value="Получить 4 варианта чип тюнинга!">
 						</form>
 						<p>Сегодня рассчитали уже <b>132</b> варианта чип-тюнинга</p>
-					</div>
-		 				 			
+					</div>		 			
+		 		</div>
+		 		<div class="sale-cont">
+		 			<img src="i/b-1/triangle.png">
+		 			<div class="sale clearfix">
+		 				<img class="left" src="i/b-1/key.png">
+		 				<div class="left">
+			 				<h2>Акция!</h2>
+			 				<h3>При заявке до 29 мая монтаж - в подарок!</h3>
+		 				</div>
+		 			</div>
 		 		</div>
 		 	</div>
 		 </div>
 	</div>
-	<div class="b b-2">
+	<div class="b b-1-1">
 		<div class="clearfix b-block">
-			<img class="lock left" src="i/lock.png">
-			<p class="left">Для продолжения заполните форму</p>
-			<img class="arrow left" src="i/b-1/arrow.png">
+			<div>
+				<img class="lock left" src="i/lock.png">
+				<p class="left">Для продолжения заполните форму</p>
+			</div>
+			<!-- <img class="arrow left" src="i/b-1/arrow.png"> -->
 		</div>
 	</div>
 	<div class="b b-3">
