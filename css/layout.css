@@ -165,7 +165,7 @@ input:-moz-placeholder {
 		
 	}
 .b-1{
-	height: 904px;
+	height: 889px;
 	overflow: hidden;
 }
 	.b-video-cont{
@@ -175,7 +175,7 @@ input:-moz-placeholder {
 	}
 		.b-video{
 			width: 100%;
-			/*min-width: 1600px;*/
+			min-height: 920px;
 			position: absolute;
 			left: 0px;
 			bottom: 0px;
@@ -349,7 +349,7 @@ input:-moz-placeholder {
 					vertical-align: middle;
 				}
 
-				.b-1 .typecar h2,.b-popup h2{
+				.b-1 .typecar h2{
 					font-size: 18px;
 					color: #e9e9e9;
 					max-width: 193px;
@@ -415,13 +415,11 @@ input:-moz-placeholder {
 					cursor: pointer;
 				}
 
-				.b-1 .typecar p,.b-popup p{
+				.b-1 .typecar p{
 					font-size: 18px;
   					text-align: left;
   					color: #fdfdfd;
-  					
 					margin-top: 18px;
-  					
 					width: 287px;
   					line-height: 20px;
 				}
@@ -429,9 +427,8 @@ input:-moz-placeholder {
 				.b-1 .typecar b,.b-popup b{
 					border: 1px solid #fdfdfd;
 					padding: 2px 7px 2px 4px;
-				
 					font-weight: 500;
-}
+				}
 				.b-1 .typecar select {
 					font-size: 18px;
  					text-align: left;
@@ -450,13 +447,13 @@ input:-moz-placeholder {
 		font-size: 0;
 	
 		margin-top: -12px;
-}
+	}
 		.b-1 .sale {
 			background-color: #009fe3;
 			padding-left: 34px;
 		
 			padding-bottom: 27px;
-}
+		}
 			.b-1 .sale img {
 				margin-top: 16px;
 			}
@@ -465,7 +462,7 @@ input:-moz-placeholder {
 			
 				padding-left: 27px;
 				text-align: left;
-}
+			}
 				.b-1 .sale>div h2 {
 					font-family:"pf_bague_sans_probold";
 					font-size: 30px;
@@ -596,14 +593,24 @@ input:-moz-placeholder {
 	margin-bottom: 10px;
 }
 .b-popup h2{
+	font-size: 18px;
+	color: #e9e9e9;
+	text-align: left;
 	margin-top: 0;
-  	width: inherit;
   	text-align: center;
   	margin-bottom: 2px;
 }	
+.b-thanks h2{
+	font-size: 25px;
+	margin-bottom: 10px;
+}
 .b-popup p {
+
+	font-size: 18px;
+	color: #fdfdfd;	
+	margin-top: 18px;
+	line-height: 20px;
 	text-align: center;
-	width: inherit;
 	margin-top: 0;
 }
 .fancybox-inner .b-popup{
