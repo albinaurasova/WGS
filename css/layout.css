@@ -336,14 +336,15 @@ input:-moz-placeholder {
 				border: 1px solid #303030;
 				background-color: #131313;
 				box-shadow: 3px -3px 38px 1px #222;
-			
 				box-sizing: border-box;
 }
 				.b-1 .typecar>div {
 					margin-bottom: 2px;
 					display: table;
 					
-				}
+				
+					width: 100%;
+}
 				.b-1 .typecar>div .tc {
 					display: table-cell;
 					vertical-align: middle;
@@ -355,7 +356,9 @@ input:-moz-placeholder {
 					max-width: 193px;
 					text-align: left;
 				}
-
+				.b-1 .typecar img{
+					max-height: 59px;
+				}
 				.b-1 .typecar .chevrolet{
 
 }
