@@ -140,7 +140,7 @@ select::-ms-expand {
 .b-block{
 	position: relative;
 	width: 1000px;
-	display: inline-block;
+	margin: 0 auto;
 }
 .b-absolute{
 	position: absolute;
@@ -162,7 +162,7 @@ input:-moz-placeholder {
 		
 	}
 .b-1{
-	height: 983px;
+	height: 904px;
 	overflow: hidden;
 }
 	.b-video-cont{
@@ -439,26 +439,58 @@ input:-moz-placeholder {
  					
 					width: 288px;
 				}
-.b-2{
+	.b-1 .sale-cont {
+		float: right;
+		width: 330px;
+		font-size: 0;
+	
+		margin-top: -12px;
+}
+		.b-1 .sale {
+			background-color: #009fe3;
+			padding-left: 34px;
+		
+			padding-bottom: 27px;
+}
+			.b-1 .sale img {
+				margin-top: 16px;
+			}
+			.b-1 .sale>div {
+				width: 200px;
+			
+				padding-left: 27px;
+				text-align: left;
+}
+				.b-1 .sale>div h2 {
+					font-family:"pf_bague_sans_probold";
+					font-size: 30px;
+				}
+				.b-1 .sale>div h3 {
+					font-size: 20px;
+				
+					line-height: 1.25;
+}
+.b-1-1{
 	background-color: #050505;
 	background-size: cover;
 }
+	.b-1-1 .b-block>div {
+		display: inline-block;
+		margin: 50px 0;
+	}
 
-	.b-2 .lock{
-		margin-top: 57px;
+	.b-1-1 .lock{
+		
 		margin-right: 28px;
-		margin-left: 250px;
 	}
 
-	.b-2 p{
+	.b-1-1 p{
 		font-size: 36px;
-		margin-top: 57px;
 		color: #fcffff;
-		margin-right: 33px;
-		margin-bottom: 62px;
+		
 	}
 
-	.b-2 .arrow{
+	.b-1-1 .arrow{
 		position: absolute;
   		top: -116px;
   		right: 113px;
