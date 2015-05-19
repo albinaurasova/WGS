@@ -80,12 +80,11 @@
 					</div>
 		 		</div>
 		 		<div class="content">
-		 			<p>Сделайте ваш <b><?=$type['text']?></b><br>
-					мощнее на <b>32%</b> за <b>20</b> минут</p>
+		 			<p>Сделайте ваш <b><?=$type['text']?></b> мощнее<br>на <b>32%</b> за <b>20</b> минут</p>
 					<h2>Вернем деньги, если не почувствуете результат</h2>
 		 		</div>
 		 		<div class="clearfix bot">
-		 			<div class="left">
+		 			<div class="car-wrap left">
 		 				<div class="car">
 		 					<h2>С сохранением дилерской гарантии</h2>
 		 					<p>Современный немецкий чип-тюнинг блок + усилитель педали газа раскроет заложенные производителем мощности автомобиля.</p>
@@ -95,12 +94,12 @@
 					
 					<div class="clearfix right typecar">
 						<div class="clearfix">
-							<h2 class="left">Получите 4 варианта чип тюнинга <?=$type['text']?><br>прямо сейчас!</h2>
+							<h2 class="left">Получите 4 варианта чип тюнинга <?=$type['text']?> прямо сейчас!</h2>
 							<img class="right <?=$type['class']?>" src="<?=$type['logo']?>">
 						</div>
 						<form action="kitsend.php" method="post" data-block="#b-popup-2">
 							<select name="1" data-brand="<?=$type['class']?>" required>
-							 	<option value="" disabled selected>Марка вашего автомобиля</option>
+							 	<option value="" disabled selected>Марка</option>
 							    <option value="alfa_romeo">Alfa Romeo</option>
 							    <option value="chevrolet">Chevrolet</option>
 							    <option value="ford">Ford</option>
