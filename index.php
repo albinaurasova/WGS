@@ -132,7 +132,41 @@
 			<img class="arrow left" src="i/b-1/arrow.png">
 		</div>
 	</div>
-	
+	<div class="b b-3">
+		 <div class="b-block">
+		 	<h2>Представьте, что Ваш автомобиль<br>
+		 	срывается с места, как только<br>Вы нажали на педаль</h2>
+		 	<div class="clearfix">
+			 	<div class="describe left">
+			 		<p>Двойное ускорение: <b>Усилитель педали газа +<br> 
+					блок увеличения мощности</b></p>
+					<img class="arrow-1" src="i/b-2/arrow-1.png">
+					<img class="arrow-2" src="i/b-2/arrow-2.png">
+			 	</div>
+			 	<ul class="left">
+			 		<li class="clearfix">
+			 			<div class="part left"></div>
+			 			<div class="left">
+				 			<h3>Легкий и мощный старт</h3>
+				 			<p>Усилитель педали газа снимает<br>
+							"врожденную" задержку<br> 
+							при нажатии</p>
+						</div>
+			 		</li>
+			 		<li class="clearfix">
+			 			<div class="part left"></div>
+			 			<div class="left">
+				 			<h3>До +32% к лошадиным силам<br> 
+							и крутящему моменту</h3>
+				 			<p>чип-тюнинг блок подает более богатую<br> 
+							топливную смесь в моменты<br> 
+							интенсивной работы двигателя</p>
+				 		</div>
+			 		</li>
+			 	</ul>
+			 </div>
+		 </div>
+	</div>
 	<div style="display:none;">
 		<div id="callback">
 			<div class="b-popup">

@@ -53,6 +53,9 @@ a{
 	text-decoration: none;
 	color: #472275;
 }
+b,a,p{
+	font-weight: 500;
+}
 li{
 	list-style: none;
 }
@@ -463,6 +466,90 @@ input:-moz-placeholder {
   		top: -116px;
   		right: 113px;
 	}
+.b-3{
+	background-image: url("../i/b-2/back.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+	.b-3 .b-block{
+		width: 1050px;
+		margin-left: 50px;
+	}
+		.b-3 h2{
+			color: #FFF;
+			font-family: "pf_bague_sans_proregular";
+			font-size: 50px;
+			text-align: left;
+			line-height: 51px;
+			margin-top: 96px;
+		}
+		.b-3 .describe{
+			position: relative;
+		}
+			.b-3 .describe p{
+				color: #FFF;
+				font-family: "pf_bague_sans_proregular";
+				font-size: 20px;
+				text-align: left;
+				margin-top: 41px;
+				margin-left: 4px;
+				line-height: 29px;
+				width: 415px;
+			}
+				.b-3 .describe .arrow-1{
+					position: absolute;
+					top: 75px;
+					right: -119px;
+				}
+				.b-3 .describe .arrow-2{
+					position: absolute;
+					top: 85px;
+					right: -156px;
+				}
+				.b-3 .describe p b{
+					font-family: "pf_bague_sans_probold";
+				}
+			.b-3 .clearfix ul{
+				margin-top: 26px;
+				margin-left: 43px;
+				margin-bottom: 66px;
+			}
+				.b-3 .clearfix ul li{
+					margin-bottom: 25px;
+				}
+					.b-3 .clearfix ul li .part{
+						background-image: url("../i/b-2/1.png");
+						background-position: 50% 50%;
+						background-repeat: no-repeat;
+						width: 237px;
+						height: 159px;
+						margin-right: -14px;
+					}
+						.b-3 .clearfix ul li:nth-child(2) .part{
+							background-image: url("../i/b-2/2.png");
+							background-position: 50% 50%;
+							background-repeat: no-repeat;
+							width: 237px;
+							height: 115px;
+							margin-top: 47px;
+						}
+					.b-3 .clearfix ul li h3{
+						color: #FCFFFF;
+						font-family: "pf_bague_sans_proregular";
+						font-size: 18px;
+						text-transform: uppercase;
+						text-align: left;
+						letter-spacing: 2px;
+						margin-top: 21px;
+						margin-bottom: 11px;
+					}
+					.b-3 .clearfix ul li p{
+						color: #FCFFFF;
+						font-family: "pf_bague_sans_proregular";
+						font-size: 18px;
+						text-align: left;
+						line-height: 23px;
+					}
 .b-popup {
 	overflow: hidden;
 }
