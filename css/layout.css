@@ -504,10 +504,12 @@ input:-moz-placeholder {
 	background-image: url("../i/b-2/back.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
+	text-align: center;
 }
 	.b-3 .b-block{
 		width: 1050px;
 		margin-left: 50px;
+		display: inline-block;
 	}
 		.b-3 h2{
 			color: #FFF;
