@@ -168,7 +168,7 @@ input:-moz-placeholder {
 	.b-video-cont{
 		position: relative;
 		width: 100%;
-		height: 680px;	
+		height: 750px;	
 	}
 		.b-video{
 			width: 100%;
@@ -306,28 +306,26 @@ input:-moz-placeholder {
 							margin-bottom: 3px;
 							color: #feffff;
 						}
-
-						.b-1 .car-wrap .chevrolet{
-							width: 610px;
-		  					margin-top: -20px;
-		  					margin-left: -70px;
-						}	
-
-						.b-1 .car-wrap .ford{
-							width: 902px;
-		  					margin-top: -23px;
-		  					margin-left: -154px;
-		  				}
-
-						.b-1 .car-wrap .alfa_romeo{
-		  					
-		  					
-						
+						.b-1 .car-wrap img {
+							left: 0px;
+  							top: 228px;
+							position: absolute;
+						}
+						/*.b-1 .car-wrap .chevrolet{
 							left: -50px;
 							top: 175px;
 							position: absolute;
-							width: 607px;
-}
+						}	
+
+						.b-1 .car-wrap .ford{
+							left: -50px;
+							top: 175px;
+							position: absolute;
+		  				}
+
+						.b-1 .car-wrap .alfa_romeo{
+							
+}*/
 
 			.b-1 .typecar, .b-popup{
 				width: 328px;
@@ -340,27 +338,31 @@ input:-moz-placeholder {
 }
 				.b-1 .typecar>div {
 					margin-bottom: 2px;
+					display: table;
+					
+				}
+				.b-1 .typecar>div .tc {
+					display: table-cell;
+					vertical-align: middle;
 				}
 
 				.b-1 .typecar h2,.b-popup h2{
 					font-size: 18px;
 					color: #e9e9e9;
-					width: 187px;
+					/*width: 187px;*/
 					text-align: left;
 				}
 
 				.b-1 .typecar .chevrolet{
+
 }
 
 				.b-1 .typecar .alfa_romeo{
-  					
-				
+  	
 }
 				
 				.b-1 .typecar .ford{
-					margin-top: 0px;
-  					width: 118px;
-  					height: 44px;
+
 				}
 
 				.b-1 .typecar input[type="text"],.b-popup input[type="text"]{

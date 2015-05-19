@@ -93,9 +93,13 @@
 		 			</div>
 					
 					<div class="clearfix right typecar">
-						<div class="clearfix">
-							<h2 class="left">Получите 4 варианта чип тюнинга <?=$type['text']?> прямо сейчас!</h2>
-							<img class="right <?=$type['class']?>" src="<?=$type['logo']?>">
+						<div>
+							<div class="tc">
+								<h2>Получите 4 варианта чип тюнинга <?=$type['text']?> прямо сейчас!</h2>
+							</div>
+							<div class="tc">
+								<img class="<?=$type['class']?>" src="<?=$type['logo']?>">
+							</div>
 						</div>
 						<form action="kitsend.php" method="post" data-block="#b-popup-2">
 							<select name="1" data-brand="<?=$type['class']?>" required>
