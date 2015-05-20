@@ -52,8 +52,8 @@
 </head>
 <body>
 	<ul class="ps-lines">
-		<li class="v" style="margin-left:-591px"></li>
-		<li class="v" style="margin-left:590px"></li>
+		<li class="v" style="margin-left:-501px"></li>
+		<li class="v" style="margin-left:500px"></li>
 		<li class="v" ></li>
 	</ul>
 	<div class="b b-1">
@@ -181,6 +181,35 @@
 			 	</ul>
 			 </div>
 		 </div>
+	</div>
+	<div class="b b-4">
+		<div class="b-block">
+			<div class="triangle"><a href="#"></a></div>
+			<h2>Ощутимый прирост мощности</h2>
+			<h3>Чип-тюнинг - это новые впечатления от вождения</h3>
+			<ul>
+				<li class="clearfix">
+					<div class="left"></div>
+					<p class="left">Резкое ускорение на старте. 
+					На низких оборотах двигатель реагирует на педаль <b>в 2 
+					раза быстрее</b></p>
+				</li>
+				<li class="clearfix">
+					<div class="left"></div>
+					<p class="left">АКПП принимает
+					решение <b>на 19% быстрее</b> при<br> переключении передачи</p>
+				</li>
+				<li class="clearfix">
+					<div class="left"></div>
+					<p class="left">Эффект непрерывного
+					разгона без провалов<br> при переключении передач</p>
+				</li>
+					<li class="clearfix">
+					<div class="left"></div>
+					<p class="left">Снижение расхода топлива <b>до 2л на 100км</b><br> передач </p>
+				</li>
+			</ul>
+		</div>
 	</div>
 	<div style="display:none;">
 		<div id="callback">

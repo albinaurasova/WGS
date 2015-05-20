@@ -92,7 +92,7 @@ select::-ms-expand {
 }
 
 .ps-lines{
-	display: none;
+	/*display: none;*/
 }
 	.ps-lines li.v{
 		position: fixed;
@@ -586,6 +586,73 @@ input:-moz-placeholder {
 						font-size: 18px;
 						text-align: left;
 						line-height: 23px;
+					}
+.b-4{
+	background-image: url("../i/b-3/back.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+	.b-4 .b-block{
+		text-align: center;
+	}
+		.b-4 .triangle a{
+			display: inline-block;
+			background-image: url("../i/triangle-sprite.png");
+			background-position: 0px 50%;
+			height: 35px;
+			width: 71px;
+			cursor: pointer;
+		}
+			.b-4 .triangle a:hover{
+				background-position: 71px 50%;
+			}
+		.b-4 h2{
+			color: #FDFBFB;
+			font-family: "pf_bague_sans_proregular";
+			font-size: 50px;
+			text-align: left;
+			margin-top: 83px;
+		}
+		.b-4 h3{
+			color: #FDFBFB;
+			font-family: "pf_bague_sans_proregular";
+			font-size: 24px;
+			text-align: left;
+			margin-top: 7px;
+		}
+		.b-4 ul{
+			margin-top: 50px;
+		}
+			.b-4 ul li{
+				margin-bottom: 29px;
+			}
+				.b-4 ul li div{
+					width: 44px;
+					height: 46px;
+					background-image: url("../i/b-3/1.png");
+					background-position: 50% 50%;
+					background-repeat: no-repeat;
+					margin-right: 19px;
+					margin-top: 9px;
+				}
+					.b-4 ul li:nth-child(2) div{
+						background-image: url("../i/b-3/2.png");
+					}
+					.b-4 ul li:nth-child(3) div{
+						background-image: url("../i/b-3/3.png");
+					}
+					.b-4 ul li:nth-child(4) div{
+						background-image: url("../i/b-3/4.png");
+					}
+				.b-4 ul li p{
+					color: #FDFBFB;
+					font-family: "pf_bague_sans_proregular";
+					font-size: 24px;
+					width: 540px;
+					text-align: left;
+				}
+					.b-4 ul li p b{
+						font-family: "pf_bague_sans_probold";
 					}
 .b-popup {
 	overflow: hidden;
