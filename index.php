@@ -211,6 +211,87 @@
 			</ul>
 		</div>
 	</div>
+	<div class="b b-5">
+		<div class="b-block">
+			<a class="b-green-butt" href="#">Рассчитать прибавку мощности для Вашего %Марка авто%</a>
+			<h2>Абсолютно безопасно для двигателя</h2>
+			<h3>Никакого дополнительного износа. Узнайте, как работает чип-тюнинг</h3>
+			<div class="content clearfix">
+				<div class="b-form typecar left">
+					<p>Выберите Ваше авто:</p>
+					<form action="kitsend.php" method="post" data-block="#b-popup-2">
+						<select name="1" data-brand="<?=$type['class']?>" required>
+						 	<option value="" disabled selected>Alfa Romeo</option>
+						    <option value="alfa_romeo">Alfa Romeo</option>
+						    <option value="chevrolet">Chevrolet</option>
+						    <option value="ford">Ford</option>
+					   	</select>
+					   	<input type="hidden" name="1-name" value="Марка"/>
+					   	<select name="2" required>
+						    <option value="" disabled selected>Alfa Romeo</option>
+					   	</select>
+					   	<input type="hidden" name="2-name" value="Модель"/>
+					   	<select name="3" required>
+						    <option value="" disabled selected>Alfa Romeo</option>
+					   	</select>
+					   	<input type="hidden" name="3-name" value="Двигатель"/>
+
+						<input type="hidden" name="subject" value="Заявка на чип-тюнинг"/>
+						<input type="submit" class="b-blue-button ajax" value="Попробовать!">
+					</form>
+				</div>
+				<div class="b-tuning left">
+					<h3>ЧИП-ТЮНИНГ:</h3>
+					<div class="on clearfix">
+						<p class="left">on</p>
+						<div class="left"></div>
+					</div>
+				</div>
+				<ul class="describe left">
+					<li>
+						<p>После чип-тюнинга:</p>
+					</li>
+					<li>
+						<p>Мощность:</p>
+					</li>
+					<li>
+						<b>выберите марку</b>
+					</li>
+					<li>
+						<p>Крутящий момент:</p>
+					</li>
+					<li>
+						<b>Выберите модель</b>
+					</li>
+					<li>
+						<p>Расход:</p>
+					</li>
+					<li>
+						<b>Выберите двигатель</b>
+					</li>
+				</ul>
+				<ul class="advantages left">
+					<li class="clearfix">
+						<img class="left" src="i/b-4/check.png">
+						<p class="left">Резкое ускорение на старте.</p>
+					</li>
+					<li class="clearfix">
+						<img class="left" src="i/b-4/check.png">
+						<p class="left">АКПП принимает решение<br>на 19% быстрее </p>
+					</li>
+					<li class="clearfix">
+						<img class="left" src="i/b-4/check.png">
+						<p class="left">+25 км/ч максимальная скорость </p>
+					</li>
+					<li class="clearfix">
+						<img class="left" src="i/b-4/check.png">
+						<p class="left">Эффект непрерывного разгона без </p>
+					</li>
+				</ul>
+			</div>
+			<img class="car" src="i/b-4/car.png">
+		</div>
+	</div>
 	<div style="display:none;">
 		<div id="callback">
 			<div class="b-popup">
