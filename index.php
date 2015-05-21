@@ -502,6 +502,101 @@
 			</div>
 		</div>
 	</div>
+	<div class="b b-12">
+		<div class="b-block">
+			<a href="#"><div class="logo"></div></a>
+			<h2>ТК-Моторс даёт официальную гарантию 
+			возврата средств и безопасности 
+			Вашего автомобиля</h2>
+			<h3>и еще 4 причины, почему чип-тюнинг стоит делать в ТК-моторс</h3>
+			<div class="center clearfix">
+				<div class="page left">
+					<a class="a-page" href="#"><img src="i/b-11/contract.jpg"></a>
+					<a class="a-text" href="#">Посмотреть весь договор</a>
+				</div>
+				<div class="list left">
+					<ul>
+						<li class="clearfix">
+							<h4 class="left">1</h4>
+							<div class="text left">
+								<h5>Гарантия 100% возврата средств в течение 3-х недель</h5>
+								<p>Без заявлений, анкет и прочей бюрократии. Не почувствовали
+								результат или брали просто потестировать - мы легко вернем
+								деньги назад</p>
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="circle left"></div>
+							<div class="text left">
+								<h6><b>1.5.2</b> Выдержка из договора Выдержка из договора Выдержка
+								из договора Выдержка из договора Выдержка из договора</h6>
+							</div>
+						</li>
+						<li class="clearfix">
+							<h4 class="left">2</h4>
+							<div class="text left">
+								<h5>Гарантия безопасности для всех агрегатов и устройств автомобиля</h5>
+								<p>Устанавливается только сертифицированное дополнительное оборудование</p>
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="circle left"></div>
+							<div class="text left">
+								<h6><b>1.5.2</b> Продавец подтверждает, что все портативные модули ЭБУ полностью 
+								соответствуют требованиям и регламентам безопасности колесных транспортных
+								средств Евросоюза и Российской Федерации, о чем свидетельствуют
+								соответствующие документы.</h6>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom">
+				<ul class="clearfix">
+					<li class="left">
+						<div class="cont clearfix">
+							<img class="left" src="i/b-11/1.png">
+							<h3 class="left">3</h3>
+							<div class="clearfix text left">
+								<h4>Уже ставили на %Марка машины%</h4>
+								<p>Установили уже -27- чипов на %марка машины%, 0 возвратов </p>
+							</div>
+						</div>
+					</li>
+					<li class="left">
+						<div class="cont clearfix">
+							<img class="left" src="i/b-11/2.png">
+							<h3 class="left">4</h3>
+							<div class="text left">
+								<h4>Монтаж - бесплатно</h4>
+								<p>Приезжайте к нам в сервис, и мастер сделает монтаж бесплатно</p>
+							</div>
+						</div>
+					</li>
+					<li class="left">
+						<div class="cont clearfix">
+							<img class="left" src="i/b-11/3.png">
+							<h3 class="left">5</h3>
+							<div class="text left">
+								<h4>Установка при Вас за 20 минут</h4>
+								<p>Монтаж делается при Вас, а мастер подробно объяснит, что и как он делает </p>
+							</div>
+						</div>
+					</li>
+					<li class="left">
+						<div class="cont clearfix">
+							<img class="left" src="i/b-11/4.png">
+							<h3 class="left">6</h3>
+							<div class="text left">
+								<h4>Адаптировано<br> под Россию</h4>
+								<p>Топливо в России часто плохого качества, поэтому программа немного мягче немецкой и адаптирована под наши условия</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 	<div style="display:none;">
 		<div id="callback">
 			<div class="b-popup">
