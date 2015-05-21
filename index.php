@@ -292,6 +292,108 @@
 			<img class="car" src="i/b-4/car.png">
 		</div>
 	</div>
+	<div class="b b-6">
+		<div class="b-block clearfix">
+			<div class="radio left">
+			    <input id="male" type="radio" name="block" value="with">
+			    <label for="male">С блоком</label>
+			    <input id="female" type="radio" name="block" value="without">
+			    <label for="female">Без блока</label>
+			</div>
+			<div class="left">
+				<ul class="steps clearfix">
+					<li class="step left">
+						<div class="clearfix">
+							<div class="clearfix top left">
+								<h3 class="left">1</h3>
+								<p class="left">При сильном<br> нажатии на<br> педаль</p>
+								<img class="arrow" src="i/b-5/arrow-1.png">
+							</div>
+							<div class="pedalt left"></div>
+						</div>
+					</li>
+					<li class="step left">
+						<div class="clearfix">
+							<div class="clearfix top">
+								<h3 class="left">2</h3>
+								<p class="left">Сигнал поступает<br> в блок</p>
+								<img class="arrow" src="i/b-5/arrow-2.png">
+							</div>
+						</div>
+					</li>
+					<li class="step left">
+						<div class="clearfix">
+							<div class="clearfix top">
+								<h3 class="left">3</h3>
+								<p class="left">Блок оптимизирует сигнал</p>
+								<img class="arrow" src="i/b-5/arrow-3.png">
+							</div>
+							<div class="b-orange-border left">
+								<div class="text">
+									<p>Внутри<br> программа<br> под Ваше авто</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="step left">
+						<div class="clearfix">
+							<div class="clearfix top">
+								<h3 class="left">4</h3>
+								<p class="left">ЭБУ выбирает<br>более мощный<br>режим</p>
+								<img class="arrow" src="i/b-5/arrow-4.png">
+							</div>
+							<div class="b-orange-border left">
+								<ul class="b-profile">
+									<li>
+										<a href="#">Задушенный режим</a>
+									</li>
+									<li>
+										<a href="#">Мощный режим</a>
+									</li>
+									<li>
+										<a href="">ЭБУ Вашего авто</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="step left">
+						<div class="clearfix">
+							<div class="clearfix top">
+								<h3 class="left">5</h3>
+								<p class="left">Результат</p>
+							</div>
+							<div class="b-orange-border">
+								<ul class="characteristics">
+									<li class="clearfix">
+										<p>Мощность:</p>
+									</li>
+									<li class="clearfix">
+										<img class="left" src="i/b-5/mini-1.png">
+										<p>177 л.с +23% </p>
+									</li>
+									<li class="clearfix">
+										<p>Крутящий момент: </p>
+									</li>
+									<li class="clearfix">
+										<img class="left" src="i/b-5/mini-1.png">
+										<p>144 Нм +19%  </p>
+									</li>
+									<li class="clearfix">
+										<p>Расход  </p>
+									</li>
+									<li class="clearfix">
+										<img class="left" src="i/b-5/mini-2.png">
+										<p>11л/100км -11%</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 	<div style="display:none;">
 		<div id="callback">
 			<div class="b-popup">
