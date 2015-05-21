@@ -597,6 +597,85 @@
 			</div>
 		</div>
 	</div>
+	<div class="b b-13">
+		<div class="b-block">
+			<h2>Все еще сомневаетесь? Прочитайте отзывы и узнайте, 
+			на какой результат Вы можете рассчитывать</h2>
+			<h3>Мы установили 312 чип-блоков за последние 6 месяцев</h3>
+			<div class="review clearfix">
+				<div class="left-1 left">
+					<h4>Volkswagen Tiguan 3.5</h4>
+					<div class="cars">
+						<img src="i/b-12/1.jpg">
+						<img src="i/b-12/2.jpg">
+					</div>
+					<div class="lists clearfix">
+						<div class="was left">
+							<p>Было:</p>
+							<ul>
+								<li>
+									<p>Мощность:  </p>
+								</li>
+								<li>
+									<p>145 л.с  </p>
+								</li>
+								<li>
+									<p>Крутящий момент: </p>
+								</li>
+								<li>
+									<p>123 Нм  </p>
+								</li>
+								<li>
+									<p>Расход:  </p>
+								</li>
+								<li>
+									<p>14 л/100 км  </p>
+								</li>
+							</ul>
+						</div>
+						<div class="now left">
+							<p>Стало:</p>
+							<ul>
+								<li class="clearfix">
+									<p>Мощность:  </p>
+								</li>
+								<li class="clearfix">
+									<div class="left"></div>
+									<p>177 л.с +23%  </p>
+								</li>
+								<li class="clearfix">
+									<p>Крутящий момент:</p>
+								</li>
+								<li class="clearfix">
+									<div class="left"></div>
+									<p>144 Нм +19%  </p>
+								</li>
+								<li class="clearfix">
+									<p>Расход:  </p>
+								</li>
+								<li class="clearfix">
+									<div class="left"></div>
+									<p>11 л/100 км -18%  </p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="left-2 left">
+					<h4>Алексей, владелец Tiguan:</h4>
+					<h5>Я не ожидал такого результата</h5>
+					<i>Я перебрала кучу сайтов и форумов,
+					поспрашивала у знакомых - попыталась проанализировать
+					соотношение предлагаемых сроков и цены, прислушалась к отзывам
+					людей, которые уже сделали ремонты. Сразу отбросила те фирмы,
+					где люди жаловались на несвоевременность...</i>
+					<p>Послушайте аудио-отзыв Алексея</p>
+					<img src="i/b-12/audio.jpg">
+				</div>
+			</div>
+			<a href="#">Посмотреть еще отзывы</a>
+		</div>
+	</div>
 	<div style="display:none;">
 		<div id="callback">
 			<div class="b-popup">

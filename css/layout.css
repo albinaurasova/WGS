@@ -235,7 +235,7 @@ input:-moz-placeholder {
 }
 
 			.b-1 .head .tel{
-    text-align: right;
+    			text-align: right;
 
 			}
 
@@ -1429,6 +1429,139 @@ input:-moz-placeholder {
 						font-size: 20px;
 						width: 250px;
 						}
+.b-13{
+	background-image: url("../i/b-12/back.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+	.b-13 .b-block{
+
+	}
+		.b-13 h2{
+			color: #FFF;
+			font-family: "pf_bague_sans_proregular";
+			font-size: 40px;
+			padding-top: 91px;
+			line-height: 41px;
+			margin-bottom: 26px;
+		}
+		.b-13 h3{
+			color: #FFF;
+			font-family: "pf_bague_sans_proregular";
+			font-size: 24px;
+			margin-bottom: 71px;
+		}
+		.b-13 .review{
+			background-color: rgba(255, 255, 255, 0.86);
+			border: 1px solid #E6E6E6;
+			display: inline-block;
+			padding-top: 19px;
+			padding-left: 25px;
+		}
+			.b-13 .review .left-1{
+				margin-bottom: 20px;
+			}
+				.b-13 .review .left-1 h4{
+					color: #050505;
+					font-family: "pf_bague_sans_problack";
+					font-size: 30px;
+					text-align: left;
+					margin-bottom: 22px;
+				}
+				.b-13 .review .left-1 .cars{
+					margin-left: 4px;
+					margin-bottom: 14px;
+				}
+					.b-13 .review .left-1 .cars img{
+						margin-right: -3px;
+					}
+				.b-13 .review .left-1 .was{
+					margin-right: 74px;
+				}
+					.b-13 .review .left-1 .was p, .b-13 .review .left-1 .now p{
+						color: #050505;
+						font-family: "pf_bague_sans_proregular";
+						font-size: 24px;
+						text-align: left;
+						margin-bottom: 16px;
+					}
+					.b-13 .review .left-1 .was ul, .b-13 .review .left-1 .now ul{
+
+					}
+						.b-13 .review .left-1 .was ul li, .b-13 .review .left-1 .now ul li{
+							margin-bottom: -14.5px;
+						}
+							.b-13 .review .left-1 .now ul li div{
+								background-image: url("../i/b-12/mini-1.png");
+								width: 12px;
+								height: 9px;
+								background-position: 50% 50%;
+								margin-right: 7px;
+								margin-left: -17px;
+								margin-top: 7px;
+							}
+								.b-13 .review .left-1 .now ul li:nth-child(6) div{
+									background-image: url("../i/b-12/mini-2.png");
+								}
+							.b-13 .review .left-1 .was ul li p, .b-13 .review .left-1 .now ul li p{
+								color: #050505;
+								font-family: "pf_bague_sans_proregular";
+								font-size: 18px;
+							}
+								.b-13 .review .left-1 .was ul li:nth-child(2n) p, .b-13 .review .left-1 .now ul li:nth-child(2n) p{
+									font-family: "pf_bague_sans_probold";
+								}
+			.b-13 .review .left-2{
+				text-align: left;
+				padding-left: 57px;
+				margin-top: 9px;
+				margin-right: 17px;
+			}
+				.b-13 .review .left-2 h4{
+					color: #050505;
+					font-family: "pf_bague_sans_proregular";
+					font-size: 24px;
+					margin-bottom: 15px;
+				}
+				.b-13 .review .left-2 h5{
+					color: #050505;
+					font-family: "pf_bague_sans_probold";
+					font-size: 24px;
+					font-weight: 500;
+					font-style: italic;
+					margin-bottom: 6px;
+				}
+				.b-13 .review .left-2 i{
+					color: #050505;
+					font-family: "pf_bague_sans_proregular";
+					font-size: 18px;
+					font-style: italic;
+					width: 452px;
+					display: block;
+					margin-bottom: 32px;
+				}
+				.b-13 .review .left-2 p{
+					color: #050505;
+					font-family: "pf_bague_sans_proregular";
+					font-size: 18px;
+					margin-bottom: 23px;
+				}
+				.b-13 .review .left-2 img{
+
+				}
+		.b-13 a{
+			color: #0798D5;
+			font-family: "pf_bague_sans_proregular";
+			font-size: 20px;
+			font-weight: 400;
+			text-decoration: underline;
+			display: inline-block;
+			margin-top: 68px;
+			margin-bottom: 100px;
+		}
+			.b-13 a:hover{
+				text-decoration: none;
+			}
 .b-popup {
 	overflow: hidden;
 }
