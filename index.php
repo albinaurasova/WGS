@@ -476,6 +476,32 @@
 			</div>
 		</div>
 	</div>
+	<div class="b b-11">
+		<div class="b-block">
+			<div class="b-black-form b-11-form">
+				<h3>Рассчитайте прирост мощности и крутящего
+				момента для Вашего %марка авто% прямо сейчас</h3>
+				<div class="b-form typecar">
+					<form action="kitsend.php" method="post" data-block="#b-popup-2">
+						<select name="1" data-brand="<?=$type['class']?>" required>
+						 	<option value="" disabled selected>Alfa Romeo</option>
+						    <option value="alfa_romeo">Alfa Romeo</option>
+						    <option value="chevrolet">Chevrolet</option>
+						    <option value="ford">Ford</option>
+					   	</select>
+					   	<input type="hidden" name="1-name" value="Марка"/>
+					   	<select name="2" required>
+						    <option value="" disabled selected>Alfa Romeo</option>
+					   	</select>
+					   	<input type="hidden" name="2-name" value="Модель"/>
+					   	<input type="text" id="phone" name="phone" required="" placeholder="Введите ваш телефон">
+						<input type="hidden" name="subject" value="Заявка на чип-тюнинг"/>
+						<input type="submit" class="b-green-butt ajax" value="Расчитать прирост!">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div style="display:none;">
 		<div id="callback">
 			<div class="b-popup">
