@@ -433,6 +433,75 @@
 			</ul>
 		</div>
 	</div>
+	<div class="b b-9">
+		<div class="b-block">
+			<h2>Первое поколение чип-блоков было 
+			разработано в 1995 году в Германии.  
+			</h2>
+			<p>За 20 лет они были сильно модернизированы и обрели огромную популярность:<br> 
+			21 000 продаж в месяц в 37 странах мира!</p>
+		</div>
+	</div>
+	<div class="b b-10 clearfix">
+		<a class="triangle" href="#"></a>
+		<div class="left-block left">
+			<div class="b-content-left">
+				<h2>Совершенная немецкая<br> электроника
+				обрабатывает 8 млн<br> операций в секунду</h2>
+				<div class="chip"></div>
+				<p><b>Чип-блоки сертифицированы</b> как<br> дополнительно
+				оборудование для %марка автомобиля%</p>
+				<h4>Сохраняется дилерская гарантия</h4>
+				<ul class="clearfix">
+					<li class="left">
+						<a href="#"><img src="i/b-9/zerf.png"></a>
+						<p>Немецкий сертификат качества TUV	</p>
+					</li>
+					<li class="left">
+						<a href="#"><img src="i/b-9/zerf.png"></a>
+						<p>ГОСТ 5812-11	</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="right-block right">
+			<div class="b-content-right">
+				<h2>1 индивидуальная программа на<br> каждый двигатель</h2>
+				<p><b>Более 5000</b> программ разработаны и<br> протестированы
+				индивидуально под<br> каждую модель автомобиля</p>
+				<div class="chip-2"></div>
+				<p>Легкая установка - <b>оригинальные штекеры</b><br> %марка автомобиля%<br>
+				Монтаж сводится к одному щелчку</p>
+				<div class="cabel"></div>
+			</div>
+		</div>
+	</div>
+	<div class="b b-11">
+		<div class="b-block">
+			<div class="b-black-form b-11-form">
+				<h3>Рассчитайте прирост мощности и крутящего
+				момента для Вашего %марка авто% прямо сейчас</h3>
+				<div class="b-form typecar">
+					<form action="kitsend.php" method="post" data-block="#b-popup-2">
+						<select name="1" data-brand="<?=$type['class']?>" required>
+						 	<option value="" disabled selected>Alfa Romeo</option>
+						    <option value="alfa_romeo">Alfa Romeo</option>
+						    <option value="chevrolet">Chevrolet</option>
+						    <option value="ford">Ford</option>
+					   	</select>
+					   	<input type="hidden" name="1-name" value="Марка"/>
+					   	<select name="2" required>
+						    <option value="" disabled selected>Alfa Romeo</option>
+					   	</select>
+					   	<input type="hidden" name="2-name" value="Модель"/>
+					   	<input type="text" id="phone" name="phone" required="" placeholder="Введите ваш телефон">
+						<input type="hidden" name="subject" value="Заявка на чип-тюнинг"/>
+						<input type="submit" class="b-green-butt ajax" value="Расчитать прирост!">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div style="display:none;">
 		<div id="callback">
 			<div class="b-popup">
