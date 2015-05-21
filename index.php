@@ -676,6 +676,42 @@
 			<a href="#">Посмотреть еще отзывы</a>
 		</div>
 	</div>
+	<div class="b b-14">
+		<div class="b-block clearfix">
+			<div class="left-1 left">
+				<h2>Получите бесплатную<br> 
+				компьютерную диагностику</h2>
+				<img class="arrow" src="i/b-13/arrow.png">
+				<ul>
+					<li class="clearfix">
+						<img class="left" src="i/b-13/check.png">
+						<p>За 15 минут точно определим слабые места двигателя  </p>
+					</li>
+					<li class="clearfix">
+						<img class="left" src="i/b-13/check.png">
+						<p>Выявим ошибки в ЭБУ  </p>
+					</li>
+					<li class="clearfix">
+						<img class="left" src="i/b-13/check.png">
+						<p>Дадим конкретные рекомендации по исправлению  </p>
+					</li>
+					<li class="clearfix">
+						<img class="left" src="i/b-13/check.png">
+						<p>Бесплатно при заявке с сайта до 25.05</p>
+					</li>
+				</ul>
+			</div>
+			<div class="left-2 left">
+				<div class="b-14-form b-black-form">
+					<h2>Оставьте заявку на компьютерную диагностику прямо сейчас!</h2>
+					<form action="kitsend.php" method="post" data-block="#b-popup-2">
+						<input type="text" id="phone" name="phone" required="" placeholder="Введите ваш телефон">
+						<input type="submit" class="b-green-butt ajax" value="Расчитать прирост!">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div style="display:none;">
 		<div id="callback">
 			<div class="b-popup">

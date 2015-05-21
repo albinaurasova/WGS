@@ -1225,7 +1225,7 @@ input:-moz-placeholder {
 			width: 326px;
 			text-align: left;
 		}
-		.b-11 .b-block .b-black-form {
+		.b-black-form {
 			background-color: #131313;
 			border: 1px solid #303030;
 			box-shadow: 0 0 9px rgba(0, 0, 0, 0.47);
@@ -1256,7 +1256,7 @@ input:-moz-placeholder {
 						font-family: "pf_bague_sans_proregular";
 						font-size: 18px;
 				}
-				.b-11 .typecar input[type="text"]{
+				.b-11 .typecar input[type="text"], .b-14 .left-2 .b-14-form input[type="text"]{
 						font-size: 18px;
 						text-align: left;
 						margin-top: 8px;
@@ -1265,7 +1265,7 @@ input:-moz-placeholder {
 						height: 40px;
 						width: 305px;
 				}
-				.b-11 .typecar input[type="submit"]{
+				.b-11 .typecar input[type="submit"], .b-14 .left-2 .b-14-form input[type="submit"]{
 					color: #000;
 					font-family: "pf_bague_sans_proregular";
 					font-size: 24px;
@@ -1562,6 +1562,75 @@ input:-moz-placeholder {
 			.b-13 a:hover{
 				text-decoration: none;
 			}
+.b-14{
+	background-image: url("../i/b-13/back.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+	.b-14 .b-block{
+
+	}
+		.b-14 .arrow{
+			position: absolute;
+			bottom: -80px;
+			right: -53px;
+		}
+		.b-14 .left-1{
+			text-align: left;
+			position: relative;
+		}
+			.b-14 .left-1 h2{
+				color: #FFF;
+				font-family: "pf_bague_sans_proregular";
+				font-size: 36px;
+				margin-top: 112px;
+				line-height: 37px;
+				margin-bottom: 25px;
+			}
+			.b-14 .left-1 ul{
+
+			}
+				.b-14 .left-1 ul li{
+
+				}
+					.b-14 .left-1 ul li img{
+						margin-right: 21px;
+						margin-top: 9px;
+					}
+					.b-14 .left-1 ul li p{
+						color: #FFF;
+						font-family: "pf_bague_sans_proregular";
+						font-size: 20px;
+						line-height: 30px;
+						width: 543px;
+					}
+		.b-14 .left-2{
+			width: 382px;
+			margin-top: 95px;
+			margin-left: 75px;
+			margin-bottom: 93px;
+		}
+			.b-14 .left-2 h2{
+				color: #FEFFFF;
+				font-family: "pf_bague_sans_proregular";
+				font-size: 20px;
+				margin-top: 23px;
+				text-align: left;
+				margin-bottom: 15px;
+			}		
+			.b-14 .left-2 .b-14-form{
+				padding-left: 28px;
+			}	
+				.b-14 .left-2 .b-14-form form{
+
+				}
+					.b-14 .left-2 .b-14-form input[type="text"]{
+						margin-left: -30px;
+					}
+					.b-14 .left-2 .b-14-form input[type="submit"]{
+						margin-left: -30px;
+						margin-bottom: 63px;
+					}
 .b-popup {
 	overflow: hidden;
 }
