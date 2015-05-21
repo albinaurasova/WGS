@@ -444,7 +444,7 @@
 	</div>
 	<div class="b b-10 clearfix">
 		<a class="triangle" href="#"></a>
-		<div class="left-block left">
+		<div class="left-block">
 			<div class="b-content-left">
 				<h2>Совершенная немецкая<br> электроника
 				обрабатывает 8 млн<br> операций в секунду</h2>
@@ -464,7 +464,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="right-block right">
+		<div class="right-block">
 			<div class="b-content-right">
 				<h2>1 индивидуальная программа на<br> каждый двигатель</h2>
 				<p><b>Более 5000</b> программ разработаны и<br> протестированы
@@ -555,8 +555,10 @@
 				<ul class="clearfix">
 					<li class="left">
 						<div class="cont clearfix">
-							<img class="left" src="i/b-11/1.png">
-							<h3 class="left">3</h3>
+							<div class="pic left">
+								<h3>3</h3>
+								<img src="i/b-11/1.png">
+							</div>
 							<div class="clearfix text left">
 								<h4>Уже ставили на %Марка машины%</h4>
 								<p>Установили уже -27- чипов на %марка машины%, 0 возвратов </p>
@@ -565,8 +567,10 @@
 					</li>
 					<li class="left">
 						<div class="cont clearfix">
-							<img class="left" src="i/b-11/2.png">
-							<h3 class="left">4</h3>
+							<div class="pic left">
+								<h3>4</h3>
+								<img src="i/b-11/2.png">
+							</div>
 							<div class="text left">
 								<h4>Монтаж - бесплатно</h4>
 								<p>Приезжайте к нам в сервис, и мастер сделает монтаж бесплатно</p>
@@ -575,8 +579,10 @@
 					</li>
 					<li class="left">
 						<div class="cont clearfix">
-							<img class="left" src="i/b-11/3.png">
-							<h3 class="left">5</h3>
+							<div class="pic left">
+								<h3>5</h3>
+								<img src="i/b-11/3.png">
+							</div>
 							<div class="text left">
 								<h4>Установка при Вас за 20 минут</h4>
 								<p>Монтаж делается при Вас, а мастер подробно объяснит, что и как он делает </p>
@@ -585,8 +591,10 @@
 					</li>
 					<li class="left">
 						<div class="cont clearfix">
-							<img class="left" src="i/b-11/4.png">
-							<h3 class="left">6</h3>
+							<div class="pic left">
+								<h3>6</h3>
+								<img src="i/b-11/4.png">
+							</div>
 							<div class="text left">
 								<h4>Адаптировано<br> под Россию</h4>
 								<p>Топливо в России часто плохого качества, поэтому программа немного мягче немецкой и адаптирована под наши условия</p>

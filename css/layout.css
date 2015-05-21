@@ -1094,6 +1094,8 @@ input:-moz-placeholder {
 		}
 .b-10{
 	text-align: center;
+	display: table;
+	width: 100%;
 }
 	.b-10 .triangle{
 		position: absolute;
@@ -1114,11 +1116,13 @@ input:-moz-placeholder {
 		width: 50%;
 		background-color: #e6e6e6;
 		text-align: right;
+		display: table-cell;
 	}
 		.b-10 .left-block .b-content-left{
 			width: 500px;
 			text-align: left;
-			display: inline-block;
+			/*display: inline-block;*/
+			float: right;
 		}
 			.b-10 .left-block .b-content-left h2, .b-10 .right-block .b-content-right h2{
 				color: #000;
@@ -1142,6 +1146,7 @@ input:-moz-placeholder {
 				font-size: 20px;
 				margin-bottom: 10px;
 				line-height: 25px;
+				width: 400px;
 			}
 				.b-10 .left-block .b-content-left p b{
 					font-family: "pf_bague_sans_probold";
@@ -1180,12 +1185,14 @@ input:-moz-placeholder {
 		width: 50%;
 		background-color: #ffffff;
 		text-align: left;
+		display: table-cell;
 	}
 		.b-10 .right-block .b-content-right{
 			width: 500px;
 			text-align: left;
-			display: inline-block;
+			/*display: inline-block;*/
 			padding-left: 73px;
+			float: left;
 		}
 		.b-10 .right-block .b-content-right p{
 				color: #000;
@@ -1193,6 +1200,7 @@ input:-moz-placeholder {
 				font-size: 20px;
 				/*margin-bottom: 10px;*/
 				line-height: 25px;
+				width: 400px;
 			}
 				.b-10 .right-block .b-content-right p b{
 					font-family: "pf_bague_sans_probold";
@@ -1406,7 +1414,7 @@ input:-moz-placeholder {
 						margin-right: 0px;
 					}
 					.b-12 .bottom ul li img{
-						margin-top: 104px;
+						margin-top: -78px;
 					}
 					.b-12 .bottom ul li .text{
 						text-align: left;
@@ -1417,7 +1425,7 @@ input:-moz-placeholder {
 							color: #0798D5;
 							font-family: "pf_bague_sans_problack";
 							font-size: 80px;
-							margin-left: -49px;
+							margin-left: 129px;
 						}
 						.b-12 .bottom ul li .text h4{
 							color: #F9FBFC;
