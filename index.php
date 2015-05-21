@@ -613,60 +613,56 @@
 			<div class="review clearfix">
 				<div class="left-1 left">
 					<h4>Volkswagen Tiguan 3.5</h4>
-					<div class="cars">
+					<div class="part left">
 						<img src="i/b-12/1.jpg">
-						<img src="i/b-12/2.jpg">
+						<p>Было:</p>
+						<ul>
+							<li>
+								<p>Мощность:  </p>
+							</li>
+							<li>
+								<p>145 л.с  </p>
+							</li>
+							<li>
+								<p>Крутящий момент: </p>
+							</li>
+							<li>
+								<p>123 Нм  </p>
+							</li>
+							<li>
+								<p>Расход:  </p>
+							</li>
+							<li>
+								<p>14 л/100 км  </p>
+							</li>
+						</ul>
 					</div>
-					<div class="lists clearfix">
-						<div class="was left">
-							<p>Было:</p>
-							<ul>
-								<li>
-									<p>Мощность:  </p>
-								</li>
-								<li>
-									<p>145 л.с  </p>
-								</li>
-								<li>
-									<p>Крутящий момент: </p>
-								</li>
-								<li>
-									<p>123 Нм  </p>
-								</li>
-								<li>
-									<p>Расход:  </p>
-								</li>
-								<li>
-									<p>14 л/100 км  </p>
-								</li>
-							</ul>
-						</div>
-						<div class="now left">
-							<p>Стало:</p>
-							<ul>
-								<li class="clearfix">
-									<p>Мощность:  </p>
-								</li>
-								<li class="clearfix">
-									<div class="left"></div>
-									<p>177 л.с +23%  </p>
-								</li>
-								<li class="clearfix">
-									<p>Крутящий момент:</p>
-								</li>
-								<li class="clearfix">
-									<div class="left"></div>
-									<p>144 Нм +19%  </p>
-								</li>
-								<li class="clearfix">
-									<p>Расход:  </p>
-								</li>
-								<li class="clearfix">
-									<div class="left"></div>
-									<p>11 л/100 км -18%  </p>
-								</li>
-							</ul>
-						</div>
+					<div class="part left">
+						<img src="i/b-12/2.jpg">
+						<p>Стало:</p>
+						<ul>
+							<li class="clearfix">
+								<p>Мощность:  </p>
+							</li>
+							<li class="clearfix">
+								<div class="left"></div>
+								<p>177 л.с +23%  </p>
+							</li>
+							<li class="clearfix">
+								<p>Крутящий момент:</p>
+							</li>
+							<li class="clearfix">
+								<div class="left"></div>
+								<p>144 Нм +19%  </p>
+							</li>
+							<li class="clearfix">
+								<p>Расход:  </p>
+							</li>
+							<li class="clearfix">
+								<div class="left"></div>
+								<p>11 л/100 км -18%  </p>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<div class="left-2 left">

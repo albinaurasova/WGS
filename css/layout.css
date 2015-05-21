@@ -1472,6 +1472,9 @@ input:-moz-placeholder {
 			.b-13 .review .left-1{
 				margin-bottom: 20px;
 			}
+				.b-13 .review .left-1 .part{
+					margin-right: 1px;
+				}
 				.b-13 .review .left-1 h4{
 					color: #050505;
 					font-family: "pf_bague_sans_problack";
@@ -1479,30 +1482,20 @@ input:-moz-placeholder {
 					text-align: left;
 					margin-bottom: 22px;
 				}
-				.b-13 .review .left-1 .cars{
-					margin-left: 4px;
-					margin-bottom: 14px;
-				}
-					.b-13 .review .left-1 .cars img{
-						margin-right: -3px;
-					}
-				.b-13 .review .left-1 .was{
-					margin-right: 74px;
-				}
-					.b-13 .review .left-1 .was p, .b-13 .review .left-1 .now p{
+					.b-13 .review .left-1 p{
 						color: #050505;
 						font-family: "pf_bague_sans_proregular";
 						font-size: 24px;
 						text-align: left;
 						margin-bottom: 16px;
 					}
-					.b-13 .review .left-1 .was ul, .b-13 .review .left-1 .now ul{
-
+					.b-13 .review .left-1 ul{
+						width: 220px;
 					}
-						.b-13 .review .left-1 .was ul li, .b-13 .review .left-1 .now ul li{
+						.b-13 .review .left-1 ul li{
 							margin-bottom: -14.5px;
 						}
-							.b-13 .review .left-1 .now ul li div{
+							.b-13 .review .left-1 ul li div{
 								background-image: url("../i/b-12/mini-1.png");
 								width: 12px;
 								height: 9px;
@@ -1511,15 +1504,15 @@ input:-moz-placeholder {
 								margin-left: -17px;
 								margin-top: 7px;
 							}
-								.b-13 .review .left-1 .now ul li:nth-child(6) div{
+								.b-13 .review .left-1 ul li:nth-child(6) div{
 									background-image: url("../i/b-12/mini-2.png");
 								}
-							.b-13 .review .left-1 .was ul li p, .b-13 .review .left-1 .now ul li p{
+							.b-13 .review .left-1 ul li p{
 								color: #050505;
 								font-family: "pf_bague_sans_proregular";
 								font-size: 18px;
 							}
-								.b-13 .review .left-1 .was ul li:nth-child(2n) p, .b-13 .review .left-1 .now ul li:nth-child(2n) p{
+								.b-13 .review .left-1 ul li:nth-child(2n) p{
 									font-family: "pf_bague_sans_probold";
 								}
 			.b-13 .review .left-2{
@@ -1527,6 +1520,7 @@ input:-moz-placeholder {
 				padding-left: 57px;
 				margin-top: 9px;
 				margin-right: 17px;
+				width: 453px;
 			}
 				.b-13 .review .left-2 h4{
 					color: #050505;
