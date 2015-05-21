@@ -234,6 +234,7 @@ input:-moz-placeholder {
 }
 
 			.b-1 .head .tel{
+    text-align: right;
 
 			}
 
@@ -263,7 +264,7 @@ input:-moz-placeholder {
 				}
 	
 				.b-1 .head .tel a{
-					display: block;
+					display: inline-block;
 					text-decoration: underline;
 					font-size: 15px;
 					color: #fcfefe;
