@@ -1038,6 +1038,36 @@ input:-moz-placeholder {
 					.b-7 .graph div p b{
 						font-size: 18px;
 					}
+.b-8{
+	background-image: url("../i/b-7/back.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+	.b-8 .b-block{
+
+	}
+		.b-8 ul{
+			padding-top: 164px;
+			padding-bottom: 55px;
+		}
+			.b-8 ul li{
+				margin-bottom: 85px;
+			}
+				.b-8 ul li img{
+					margin-bottom: 28px;
+				}
+				.b-8 ul li h2{
+					color: #FFFDFD;
+					font-family: "pf_bague_sans_problack";
+					font-size: 40px;
+					line-height: 40px;
+					margin-bottom: 14px;
+				}
+				.b-8 ul li p{
+					color: #FFFDFD;
+					font-family: "pf_bague_sans_proregular";
+					font-size: 25px;
+				}
 .b-popup {
 	overflow: hidden;
 }
