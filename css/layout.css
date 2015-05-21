@@ -624,9 +624,6 @@ input:-moz-placeholder {
 			width: 71px;
 			cursor: pointer;
 		}
-			.b-4 .triangle a:hover{
-				background-position: 71px 50%;
-			}
 		.b-4 h2{
 			color: #FDFBFB;
 			font-family: "pf_bague_sans_proregular";
@@ -1107,11 +1104,7 @@ input:-moz-placeholder {
 		background-position: 71px 50%;
 		height: 35px;
 		width: 71px;
-		cursor: pointer;
 	}
-		.b-10 .triangle:hover{
-			background-position: 0px 50%;
-		}
 	.b-10 .left-block{
 		width: 50%;
 		background-color: #e6e6e6;
@@ -1435,10 +1428,11 @@ input:-moz-placeholder {
 							margin-bottom: 11px;
 						}
 						.b-12 .bottom ul li .text p{
-						color: #FEFCFC;
-						font-family: "pf_bague_sans_proregular";
-						font-size: 20px;
-						width: 250px;
+							color: #FEFCFC;
+							font-family: "pf_bague_sans_proregular";
+							font-size: 20px;
+							width: 250px;
+							line-height: 25px;
 						}
 .b-13{
 	background-image: url("../i/b-12/back.jpg");
@@ -1636,6 +1630,122 @@ input:-moz-placeholder {
 						margin-left: -30px;
 						margin-bottom: 63px;
 					}
+.b-15{
+	background-image: url("../i/back-14.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+	.b-15 .b-block{
+		text-align: center;
+		padding-bottom: 59px;
+	}
+		.b-15 h2{
+			color: #FEFDFD;
+			font-family: "pf_bague_sans_proregular";
+			font-size: 36px;
+			padding-top: 54px;
+			margin-bottom: 10px;
+		}
+		.b-15 h3{
+			color: #FEFDFD;
+			font-family: "pf_bague_sans_proregular";
+			font-size: 24px;
+		}
+.b-16{
+	height: 613px;
+	background-color: #ffffff;
+}
+.b-17{
+	background-image: url("../i/back-16.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+	.b-17 .b-block{
+		text-align: center;
+	}
+		.b-17 .b-block div{
+			text-align: center;
+			display: inline-block;
+			margin-top: 60px;
+			margin-bottom: 67px;
+		}
+			.b-17 .b-block div p{
+				color: #FEFEFE;
+				font-family: "pf_bague_sans_proregular";
+				font-size: 24px;
+				margin-right: 41px;
+			}
+			.b-17 .b-block div a{
+				color: #009FE3;
+				font-family: "pf_bague_sans_proregular";
+				font-size: 24px;
+				text-decoration: underline;
+			}
+				.b-17 .b-block div a:hover{
+					text-decoration: none;
+				}
+.b-18{
+	border-top: 13px solid #000000;
+	border-bottom: 8px solid #000000;
+	background-color: #0a0a0a;
+}
+	.b-18 .b-block{
+
+	}
+		.b-18 .logo{
+			margin-top: 27px;
+			margin-right: 24px;
+		}
+			.b-18 .logo a{
+				display: block;
+				background-image: url("../i/b-17/motors.png");
+				width: 201px;
+				height: 74px;
+			}
+		.b-18 .describe{
+			text-align: left;
+			margin-top: 44px;
+			width: 192px;
+			line-height: 19px;
+		}
+			.b-18 .describe p{
+				color: #FCFEFE;
+				font-family: "pf_bague_sans_proregular";
+				font-size: 18px;
+			}
+		.b-18 .contacts{
+			text-align: right;
+			margin-top: 31px;
+			margin-bottom: 33px;
+		}
+			.b-18 .contacts h3{
+				color: #FCFEFE;
+				font-family: "pf_bague_sans_proregular";
+				font-size: 18px;
+				margin-bottom: 3px;
+			}
+			.b-18 .contacts .b-phone{
+
+			}
+				.b-18 .contacts .b-phone img{
+					margin-right: 7px;
+					margin-top: 6px;
+				}
+				.b-18 .contacts .b-phone p{
+					color: #FCFEFE;
+					font-family: "pf_bague_sans_probold";
+					font-size: 24px;
+				}
+			.b-18 .contacts a{
+				color: #FCFEFE;
+				font-family: "pf_bague_sans_proregular";
+				font-size: 18px;
+				text-decoration: underline;
+				display: inline-block;
+			}
+				.b-18 .contacts a:hover{
+					text-decoration: none;
+				}
 .b-popup {
 	overflow: hidden;
 }

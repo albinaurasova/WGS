@@ -716,6 +716,41 @@
 			</div>
 		</div>
 	</div>
+	<div class="b b-15">
+		<div class="b-block">
+			<h2>Приезжайте, будем рады Вас видеть</h2>
+			<h3>г. Москва, Гостиничный проезд, д.6 к.2. С 11:00 до 19:00 без выходных</h3>
+		</div>
+	</div>
+	<div class="b b-16">
+		
+	</div>
+	<div class="b b-17">
+		<div class="b-block">
+			<div class="clearfix">
+				<p class="left">Остался вопрос о чип-тюнинге?</p>
+				<a class="left" href="#">Задайте его менеджеру</a>
+			</div>
+		</div>
+	</div>
+	<div class="b b-18">
+		<div class="b-block clearfix">
+			<div class="logo left"><a href="#"></a></div>
+			<div class="describe left">
+				<p>Немецкий чип-тюнинг 
+				с гарантией результата 
+				в Москве</p>
+			</div>
+			<div class="contacts right">
+				<h3>Есть вопрос? Звоните - поможем!</h3>
+				<div class="b-phone clearfix">
+					<p class="right">+7 (499) 399 3509</p>
+					<img class="right" src="i/b-17/phone.png">
+				</div>
+				<a href="#">Заказать звонок</a>
+			</div>
+		</div>
+	</div>
 	<div style="display:none;">
 		<div id="callback">
 			<div class="b-popup">
