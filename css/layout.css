@@ -1090,6 +1090,124 @@ input:-moz-placeholder {
 			font-size: 25px;
 			line-height: 34px;
 		}
+.b-10{
+	text-align: center;
+}
+	.b-10 .triangle{
+		position: absolute;
+		top: 0px;
+		left: 50%;
+		margin-left: -35px;
+		display: inline-block;
+		background-image: url("../i/triangle-sprite.png");
+		background-position: 71px 50%;
+		height: 35px;
+		width: 71px;
+		cursor: pointer;
+	}
+		.b-10 .triangle:hover{
+			background-position: 0px 50%;
+		}
+	.b-10 .left-block{
+		width: 50%;
+		background-color: #e6e6e6;
+		text-align: right;
+	}
+		.b-10 .left-block .b-content-left{
+			width: 500px;
+			text-align: left;
+			display: inline-block;
+		}
+			.b-10 .left-block .b-content-left h2, .b-10 .right-block .b-content-right h2{
+				color: #000;
+				font-family: "pf_bague_sans_proregular";
+				font-size: 25px;
+				padding-top: 37px;
+				line-height: 25px;
+				margin-bottom: 20px;
+			}
+			.b-10 .left-block .b-content-left .chip{
+				background-image: url("../i/b-9/1.png");
+				width: 230px;
+				height: 230px;
+				background-position: 50% 50%;
+				margin-top: 41px;
+				margin-bottom: 31px;
+			}
+			.b-10 .left-block .b-content-left p{
+				color: #000;
+				font-family: "pf_bague_sans_proregular";
+				font-size: 20px;
+				margin-bottom: 10px;
+			}
+				.b-10 .left-block .b-content-left p b{
+					font-family: "pf_bague_sans_probold";
+				}
+			.b-10 .left-block .b-content-left h4{
+				color: #000;
+				font-family: "pf_bague_sans_problack";
+				font-size: 20px;
+				margin-bottom: 31px;
+			}
+			.b-10 .left-block .b-content-left ul{
+
+			}
+				.b-10 .left-block .b-content-left ul li{
+					margin-right: 29px;
+				}
+					.b-10 .left-block .b-content-left ul li a{
+
+					}
+					.b-10 .left-block .b-content-left ul li img{
+
+					}
+					.b-10 .left-block .b-content-left ul li p{
+						color: #000;
+						font-family: "pf_bague_sans_proregular";
+						font-size: 15px;
+						width: 171px;
+						margin-top: 10px;
+						margin-bottom: 37px;
+					}
+						.b-10 .left-block .b-content-left ul li:nth-child(2) p{
+							text-transform: uppercase;
+						}
+	.b-10 .right-block{
+		width: 50%;
+		background-color: #ffffff;
+		text-align: left;
+	}
+		.b-10 .right-block .b-content-right{
+			width: 500px;
+			text-align: left;
+			display: inline-block;
+			padding-left: 73px;
+		}
+		.b-10 .right-block .b-content-right p{
+				color: #000;
+				font-family: "pf_bague_sans_proregular";
+				font-size: 20px;
+				/*margin-bottom: 10px;*/
+			}
+				.b-10 .right-block .b-content-right p b{
+					font-family: "pf_bague_sans_probold";
+				}
+		.b-10 .right-block .b-content-right .chip-2{
+			background-image: url("../i/b-9/2.png");
+			width: 230px;
+			height: 230px;
+			background-position: 50% 50%;
+			margin-top: 39px;
+			margin-bottom: 45px;
+		}
+		.b-10 .right-block .b-content-right .cabel{
+			background-image: url("../i/b-9/3.png");
+			width: 306px;
+			height: 213px;
+			background-position: 50% 50%;
+			margin-top: 41px;
+			margin-bottom: 83px;
+		}
 .b-popup {
 	overflow: hidden;
 }
