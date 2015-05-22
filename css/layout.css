@@ -35,7 +35,28 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'pf_bague_sans_proitalic';
+    src: url('../fonts/pfbaguesanspro-italic-webfont.eot');
+    src: url('../fonts/pfbaguesanspro-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfbaguesanspro-italic-webfont.woff2') format('woff2'),
+         url('../fonts/pfbaguesanspro-italic-webfont.woff') format('woff'),
+         url('../fonts/pfbaguesanspro-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 
+}
+@font-face {
+    font-family: 'pf_bague_sans_proMdIt';
+    src: url('../fonts/pfbaguesanspro-mediumitalic-webfont.eot');
+    src: url('../fonts/pfbaguesanspro-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfbaguesanspro-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/pfbaguesanspro-mediumitalic-webfont.woff') format('woff'),
+         url('../fonts/pfbaguesanspro-mediumitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 html,
 body {
@@ -537,8 +558,9 @@ input:-moz-placeholder {
 			font-family: "pf_bague_sans_proregular";
 			font-size: 50px;
 			text-align: left;
-			line-height: 51px;
+			line-height: 50px;
 			margin-top: 96px;
+			width: 800px;
 		}
 		.b-3 .describe{
 			position: relative;
@@ -548,7 +570,7 @@ input:-moz-placeholder {
 				font-family: "pf_bague_sans_proregular";
 				font-size: 20px;
 				text-align: left;
-				margin-top: 41px;
+				margin-top: 43px;
 				margin-left: 4px;
 				line-height: 29px;
 				width: 415px;
@@ -567,7 +589,7 @@ input:-moz-placeholder {
 					font-family: "pf_bague_sans_probold";
 				}
 			.b-3 .clearfix ul{
-				margin-top: 26px;
+				margin-top: 29px;
 				margin-left: 43px;
 				margin-bottom: 66px;
 			}
@@ -596,16 +618,17 @@ input:-moz-placeholder {
 						font-size: 18px;
 						text-transform: uppercase;
 						text-align: left;
-						letter-spacing: 2px;
+						letter-spacing: 1.7px;
 						margin-top: 21px;
-						margin-bottom: 11px;
+						margin-bottom: 10px;
 					}
 					.b-3 .clearfix ul li p{
 						color: #FCFFFF;
 						font-family: "pf_bague_sans_proregular";
 						font-size: 18px;
 						text-align: left;
-						line-height: 23px;
+						line-height: 24px;
+						width: 340px;
 					}
 .b-4{
 	background-image: url("../i/b-3/back.jpg");
@@ -637,6 +660,7 @@ input:-moz-placeholder {
 			font-size: 24px;
 			text-align: left;
 			margin-top: 7px;
+			margin-left: 3px;
 		}
 		.b-4 ul{
 			margin-top: 50px;
@@ -668,6 +692,7 @@ input:-moz-placeholder {
 					font-size: 24px;
 					width: 540px;
 					text-align: left;
+					line-height: 30px;
 				}
 					.b-4 ul li p b{
 						font-family: "pf_bague_sans_probold";
@@ -902,7 +927,7 @@ input:-moz-placeholder {
 					font-size: 18px;
 					text-align: left;
 					max-width: 158px;
-					line-height: 23px;
+					line-height: 24px;
 				}
 				.b-6 .steps .step .pedalt{
 					background-image: url("../i/b-5/1.png");
@@ -947,6 +972,7 @@ input:-moz-placeholder {
 						height: 40px;
 						border: 1px solid #2E3F43;
 						margin-bottom: 7px;
+						text-align: left;
 					}
 						.b-6 .steps .step .clearfix .b-orange-border .b-profile li:last-child{
 							margin-bottom: 0px;
@@ -962,6 +988,7 @@ input:-moz-placeholder {
 							font-size: 18px;
 							margin-top: 8px;
 							display: inline-block;
+							padding-left: 20px;
 						}
 				.b-6 .steps .step .clearfix .b-orange-border .characteristics{
 
@@ -991,7 +1018,7 @@ input:-moz-placeholder {
 }
 	.b-7 .b-block{
 		text-align: center;
-		padding-bottom: 110px;
+		padding-bottom: 64px;
 	}
 		.b-7 h2{
 			color: #FFFDFD;
@@ -1000,14 +1027,14 @@ input:-moz-placeholder {
 			text-align: left;
 			padding-top: 72px;
 			line-height: 50px;
-			margin-bottom: 12px;
+			margin-bottom: 10px;
 		}
 		.b-7 p{
 			color: #FFFEFE;
 			font-family: "pf_bague_sans_proregular";
 			font-size: 24px;
 			text-align: left;
-			line-height: 34px;
+			line-height: 35px;
 			margin-bottom: 59px;
 		}
 		.b-7 .graph{
@@ -1117,11 +1144,19 @@ input:-moz-placeholder {
 			/*display: inline-block;*/
 			float: right;
 		}
-			.b-10 .left-block .b-content-left h2, .b-10 .right-block .b-content-right h2{
+			.b-10 .left-block .b-content-left h2{
 				color: #000;
 				font-family: "pf_bague_sans_proregular";
 				font-size: 25px;
-				padding-top: 37px;
+				padding-top: 32px;
+				line-height: 25px;
+				margin-bottom: 20px;
+			}
+			.b-10 .right-block .b-content-right h2{
+				color: #000;
+				font-family: "pf_bague_sans_proregular";
+				font-size: 25px;
+				padding-top: 32px;
 				line-height: 25px;
 				margin-bottom: 20px;
 			}
@@ -1312,7 +1347,7 @@ input:-moz-placeholder {
 			font-size: 50px;
 			text-align: left;
 			line-height: 51px;
-			width: 908px;
+			width: 915px;
 			margin-bottom: 12px;
 		}
 		.b-12 h3{
@@ -1461,13 +1496,14 @@ input:-moz-placeholder {
 			border: 1px solid #E6E6E6;
 			display: inline-block;
 			padding-top: 19px;
-			padding-left: 25px;
+			padding-left: 24px;
 		}
 			.b-13 .review .left-1{
 				margin-bottom: 20px;
 			}
 				.b-13 .review .left-1 .part{
 					margin-right: 1px;
+
 				}
 				.b-13 .review .left-1 h4{
 					color: #050505;
@@ -1482,12 +1518,14 @@ input:-moz-placeholder {
 						font-size: 24px;
 						text-align: left;
 						margin-bottom: 16px;
+						margin-top: 14px;
 					}
 					.b-13 .review .left-1 ul{
 						width: 220px;
 					}
 						.b-13 .review .left-1 ul li{
 							margin-bottom: -14.5px;
+							max-height: 24px;
 						}
 							.b-13 .review .left-1 ul li div{
 								background-image: url("../i/b-12/mini-1.png");
@@ -1514,7 +1552,7 @@ input:-moz-placeholder {
 				padding-left: 57px;
 				margin-top: 9px;
 				margin-right: 14px;
-				width: 453px;
+				width: 447px;
 			}
 				.b-13 .review .left-2 h4{
 					color: #050505;
@@ -1524,20 +1562,21 @@ input:-moz-placeholder {
 				}
 				.b-13 .review .left-2 h5{
 					color: #050505;
-					font-family: "pf_bague_sans_probold";
+					font-family: "pf_bague_sans_proMdIt";
 					font-size: 24px;
 					font-weight: 500;
-					font-style: italic;
+					font-style: normal;
 					margin-bottom: 6px;
 				}
 				.b-13 .review .left-2 i{
 					color: #050505;
-					font-family: "pf_bague_sans_proregular";
+					font-family: "pf_bague_sans_proitalic";
 					font-size: 18px;
-					font-style: italic;
+					font-style: normal;
 					width: 452px;
 					display: block;
-					margin-bottom: 32px;
+					margin-bottom: 21px;
+					line-height: 24px;
 				}
 				.b-13 .review .left-2 p{
 					color: #050505;
